@@ -10,7 +10,7 @@ paths:
     post:
       description: Create a new Order.
       tags:
-        - orders
+        - orders tag
       security:
         - AuthToken: []
         - TenantToken: []
