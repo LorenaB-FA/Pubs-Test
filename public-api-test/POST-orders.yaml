@@ -2,13 +2,13 @@ openapi: 3.0.0
 servers:
   - url: 'https://dev.fa.com/vX/'
 info:
-  title: POST /Orders Endpoints - FA API.
-  version: 0.0.0
+  title: Create a new Order
+  version: 0.0.1
 
 paths:
   /orders:
     post:
-      description: Create order.
+      description: Create a new Order.
       tags:
         - orders
       security:

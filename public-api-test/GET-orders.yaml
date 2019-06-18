@@ -2,8 +2,8 @@ openapi: 3.0.0
 servers:
   - url: 'https://dev.fa.com/vX/'
 info:
-  title: GET Orders Endpoints - FA API.
-  version: 0.0.0
+  title: Return a paginated list of Orders.
+  version: 0.0.1
 
 paths:
   /orders:
