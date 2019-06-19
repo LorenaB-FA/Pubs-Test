@@ -2,7 +2,7 @@ openapi: 3.0.0
 servers:
   - url: 'https://dev.fa.com/vX/'
 info:
-  title: All Orders Endpoints - Finapps API.
+  title: All Orders Endpoints - FA API.
   version: 0.0.4
 
 paths:
@@ -11,7 +11,7 @@ paths:
       description: Retrieve a paginated list of orders.
       tags:
         - orders
-        - 6.3
+        - '6.3'
       security:
         - AuthToken: []
         - TenantToken: []
@@ -108,7 +108,7 @@ paths:
       description: Create order.
       tags:
         - orders
-        - 6.1
+        - '6.1'
       security:
         - AuthToken: []
         - TenantToken: []
@@ -168,7 +168,7 @@ paths:
         Non-admin operators can only see orders assigned to them.
       tags:
         - orders
-        - 6.2
+        - '6.2'
       security:
         - AuthToken: []
         - TenantToken: []
@@ -199,7 +199,7 @@ paths:
         institutions and accounts not in the order can be submitted.
       tags:
         - orders
-        - 9.0
+        - '9.0'
       security:
         - AuthToken: []
         - TenantToken: []
@@ -292,7 +292,7 @@ paths:
         order, but with a new `public_id`.
       tags:
         - orders
-        - 10.3
+        - '10.3'
       security:
         - AuthToken: []
         - TenantToken: []
@@ -371,7 +371,7 @@ paths:
       description: Cancel an existing order. Must have admin role.
       tags:
         - orders
-        - 6.6
+        - '6.6'
       security:
         - AuthToken: []
         - TenantToken: []
@@ -413,7 +413,7 @@ paths:
       description: Get a report for an order. Must have admin role.
       tags:
         - orders
-        - 10.1
+        - '10.1'
       security:
         - AuthToken: []
         - TenantToken: []
@@ -449,7 +449,7 @@ paths:
       description: Get a report for an order.
       tags:
         - orders
-        - 6.5
+        - '6.5'
       security:
         - AuthToken: []
         - TenantToken: []
